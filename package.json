@@ -1,0 +1,24 @@
+{
+  "name": "webreporting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "CSV",
+    "node"
+  ],
+  "author": "shivani sonagara",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csvjson": "^5.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "fs": "0.0.1-security",
+    "nodemon": "^1.19.0",
+    "path": "^0.12.7"
+  }
+}

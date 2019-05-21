@@ -1,0 +1,53 @@
+.title
+{
+    color: #007bff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#example_wrapper {
+    width: 100%;
+}
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.btn-default {
+    border: 1px solid green;
+    padding: 11px 30px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: white;
+    background: #39cb04;
+    transition: 0.5s;
+}
+
+.btn-default:hover {
+    color: green;
+    background: white;
+    border: 1px solid green;
+    transition: 0.5s;
+}
+
+.table-wrapper 
+{
+    margin-top: 50px;
+}
+
+.table-wrapper .thead-dark th {
+    text-transform: uppercase;
+}
+
+.table-wrapper .thead-dark td {
+    text-transform: capitalize;
+}
